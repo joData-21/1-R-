@@ -1,3 +1,4 @@
+library(terra)
 setwd("../data/") # disesuaikan folder workspace
 bts_admin <- vect("./BATAS_ADMINISTRASI_AR.shp") 
 plot(bts_admin)
