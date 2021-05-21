@@ -1,7 +1,7 @@
 # setting library dan lingkungan kerja
 library(sf)
 library(raster)
-setwd("D:/Proyek/2021/dev/terra/")
+setwd("../") # disesuaikan dengan folder workspace
 
 # ambil SHP administrasi dan koordinat extent
 bts_kab <- st_read("./data/BatasKab.shp")
